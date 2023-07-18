@@ -338,6 +338,9 @@ blocks:
       subheadStyles: text-white undefined mb-4
       textStyles: text-white undefined undefined
     background:
+      fillStyles: from-black to-black bg-gradient-to-r opacity-100
+      wrapFillStyles: from-white to-black bg-gradient-to-r opacity-100
+      src: ''
       style: bg-cover
       position: bg-center
     _template: eventTimeline
@@ -379,6 +382,7 @@ background:
   style: bg-cover
   position: bg-left
 ---
+
 
 
 
