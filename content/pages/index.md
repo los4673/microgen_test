@@ -220,23 +220,25 @@ blocks:
       buttonWidth: undefined
     background:
       fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
       style: bg-cover
       position: bg-center
       ornaments:
         - src: /uploads/rule.svg
           alignment: bottom
     label: ''
-    headline: Components
+    headline: Components (Sponsors Section?
     subhead: ''
     body: ''
     items:
       - image:
-          src: /uploads/star.svg
+          src: /uploads/IMG_0965 2.PNG
         headline: Feature
         subhead: ''
         body: >
           Copy next to an image, or above an image. Or below it - you get the
           point. The core component of all websites.
+        link: digi-frontier.com
       - image:
           src: /uploads/bring-forward.svg
         headline: Cards
@@ -382,6 +384,7 @@ background:
   style: bg-cover
   position: bg-left
 ---
+
 
 
 
