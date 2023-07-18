@@ -330,6 +330,18 @@ blocks:
     navigationLabel: ''
     _template: feature
   - style:
+      fullWidth: false
+      minHeight: min-h-100
+      padding: pt-20 pb-20 pr-10 pl-10
+      labelStyles: text-white undefined undefined
+      headlineStyles: text-white undefined undefined
+      subheadStyles: text-white undefined mb-4
+      textStyles: text-white undefined undefined
+    background:
+      style: bg-cover
+      position: bg-center
+    _template: eventTimeline
+  - style:
       alignment: 'flex-col-reverse items-center '
       padding: 'pt-20 pb-20 pr-5 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
@@ -367,6 +379,7 @@ background:
   style: bg-cover
   position: bg-left
 ---
+
 
 
 
