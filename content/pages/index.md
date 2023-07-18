@@ -330,7 +330,7 @@ blocks:
     navigationLabel: ''
     _template: feature
   - style:
-      fullWidth: true
+      fullWidth: false
       minHeight: min-h-100
       padding: pt-20 pb-20 pr-10 pl-10
       labelStyles: text-white undefined undefined
@@ -382,6 +382,7 @@ background:
   style: bg-cover
   position: bg-left
 ---
+
 
 
 
