@@ -355,6 +355,9 @@ blocks:
       minHeight: undefined
       padding: pt-0 pb-0 undefined pl-96
     background:
+      fillStyles: from-white to-primary bg-gradient-to-r opacity-100
+      wrapFillStyles: ' opacity-100'
+      src: /uploads/hero-video.jpg
       style: bg-cover
       position: bg-center
     markup: >
@@ -435,6 +438,7 @@ background:
   style: bg-cover
   position: bg-left
 ---
+
 
 
 
