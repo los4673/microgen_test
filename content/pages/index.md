@@ -32,6 +32,53 @@ blocks:
         fathomId: ''
     _template: feature
   - style:
+      fullWidth: false
+      minHeight: undefined
+      padding: pt-0 pb-0 undefined pl-96
+    background:
+      style: bg-cover
+      position: bg-center
+    markup: >
+      <div id="mc_embed_shell">
+            <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+              #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
+              /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+      </style>
+
+      <div id="mc_embed_signup">
+          <form action="https://digi-frontier.us21.list-manage.com/subscribe/post?u=0d1bcaff99644bd5e76a8611f&amp;id=23f347c4e2&amp;f_id=008d5fe1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+              <div id="mc_embed_signup_scroll"><h2>Subscribe</h2>
+                  <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                  <div class="mc-field-group"><label for="mce-FNAME">First Name </label><input type="text" name="FNAME" class=" text" id="mce-FNAME" value=""></div><div class="mc-field-group"><label for="mce-LNAME">Last Name </label><input type="text" name="LNAME" class=" text" id="mce-LNAME" value=""></div><div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" value="" required=""></div>
+              <div id="mce-responses" class="clear foot">
+                  <div class="response" id="mce-error-response" style="display: none;"></div>
+                  <div class="response" id="mce-success-response" style="display: none;"></div>
+              </div>
+          <div aria-hidden="true" style="position: absolute; left: -5000px;">
+              /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+              <input type="text" name="b_0d1bcaff99644bd5e76a8611f_23f347c4e2" tabindex="-1" value="">
+          </div>
+              <div class="optionalParent">
+                  <div class="clear foot">
+                      <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+                      <p class="brandingLogo" style="margin: 0px auto;"><a href="http://eepurl.com/ivTUd2" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg" alt="referral badge"></a></p>
+                  </div>
+              </div>
+          </div>
+      </form>
+
+      </div>
+
+      <script type="text/javascript"
+      src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script
+      type="text/javascript">(function($) {window.fnames = new Array();
+      window.ftypes = new
+      Array();fnames[1]=FNAME;ftypes[1]=merge;,fnames[2]=LNAME;ftypes[2]=merge;,fnames[0]=EMAIL;ftypes[0]=merge;,fnames[3]=ADDRESS;ftypes[3]=merge;,fnames[4]=PHONE;ftypes[4]=merge;,fnames[5]=BIRTHDAY;ftypes[5]=merge;false}(jQuery));var
+      $mcj = jQuery.noConflict(true);</script></div>
+    _template: embed
+  - style:
       alignment: 'flex-col-reverse items-center '
       padding: pt-0 pb-0.5 pr-0 pl-0
       featureContent: w-full min-h-0 text-center
@@ -388,6 +435,7 @@ background:
   style: bg-cover
   position: bg-left
 ---
+
 
 
 
