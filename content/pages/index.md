@@ -232,12 +232,16 @@ blocks:
     body: ''
     items:
       - image:
-          src: /uploads/IMG_0965 2.PNG
+          src: ''
         headline: Feature
         subhead: ''
         body: >
+          THIS IS A TEST FOR SPONSOR SLOT
+
+
           Copy next to an image, or above an image. Or below it - you get the
-          point. The core component of all websites.
+          point. The core component of all websites.![](</uploads/IMG_0965
+          2.PNG>)
         link: digi-frontier.com
       - image:
           src: /uploads/bring-forward.svg
@@ -384,6 +388,7 @@ background:
   style: bg-cover
   position: bg-left
 ---
+
 
 
 
