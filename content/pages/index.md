@@ -12,11 +12,12 @@ blocks:
       textStyles: 'text-white mg-copy '
     background:
       fillStyles: ' opacity-100'
-      src: /uploads/hero-background.mp4
+      wrapFillStyles: ' opacity-100'
+      src: /uploads/DesertBackground.jpeg
       style: bg-cover
       position: bg-center
     label: ''
-    headline: A visual site builder you own
+    headline: MNBlockchain Test Site
     subhead: ''
     body: >
       Quickly build mobile-friendly websites with an intuitive, easy-to-use
@@ -366,5 +367,6 @@ background:
   style: bg-cover
   position: bg-left
 ---
+
 
 
