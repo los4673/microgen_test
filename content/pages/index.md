@@ -290,6 +290,21 @@ blocks:
     navigationLabel: components
     _template: cards
   - style:
+      alignment: flex-row items-center gap-0
+      padding: pt-20 pb-20 pr-10 pl-10
+      featureImage: mx-auto
+      featureContent: w-1/2 min-h-0 text-left
+      labelStyles: text-black
+      headlineStyles: text-black
+      subheadStyles: text-black
+      textStyles: text-black
+    background:
+      style: bg-cover
+      position: bg-center
+    headline: Headline
+    subhead: Subhead
+    _template: feature
+  - style:
       alignment: 'flex-row-reverse items-center gap-12 sm:flex-col sm:items-center sm:'
       padding: 'pt-32 pb-32 pr-14 pl-14 sm:pt-0 sm:pb-10 sm:pr-5 sm:pl-5'
       featureImage: '  mr-auto   sm:mx-auto'
@@ -450,6 +465,7 @@ background:
   style: bg-cover
   position: bg-left
 ---
+
 
 
 
