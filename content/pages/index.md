@@ -290,7 +290,7 @@ blocks:
     navigationLabel: components
     _template: cards
   - style:
-      alignment: 'flex-col-reverse items-center '
+      alignment: 'flex-row-reverse items-center '
       padding: pt-20 pb-20 pr-10 pl-10
       featureImage: '  mx-auto'
       featureContent: w-1/2 min-h-0 text-left
@@ -300,6 +300,8 @@ blocks:
       subheadStyles: text-white undefined undefined
       textStyles: text-white undefined undefined
     background:
+      fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
       style: bg-cover
       position: bg-center
     image:
@@ -469,6 +471,7 @@ background:
   style: bg-cover
   position: bg-left
 ---
+
 
 
 
