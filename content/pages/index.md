@@ -231,6 +231,12 @@ blocks:
     subhead: ''
     body: ''
     items:
+      - headline: Sponsor
+        body: |
+          ![](</uploads/IMG_0965 2.PNG>)
+      - headline: Sponsor
+        body: |
+          ![](</uploads/IMG_0965 2.PNG>)
       - image:
           src: ''
         headline: Feature
@@ -438,6 +444,7 @@ background:
   style: bg-cover
   position: bg-left
 ---
+
 
 
 
