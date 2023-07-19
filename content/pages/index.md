@@ -305,10 +305,48 @@ blocks:
       style: bg-cover
       position: bg-center
     image:
-      src: /uploads/IMG_0968 2.PNG
-    headline: Headline
+      src: /uploads/logo.jpg
+    headline: Headline Test
     subhead: Subhead
     _template: feature
+  - style:
+      alignment: flex-col-reverse items-center gap-6
+      padding: pt-20 pb-20 pr-20 pl-20
+      featureContent: w-1/2 min-h-0 text-left
+      buttonsLayout: 'flex-row gap-4 '
+      labelStyles: text-white undefined undefined
+      headlineStyles: text-white undefined undefined
+      subheadStyles: text-white undefined undefined
+      textStyles: text-white undefined undefined
+    cardStyle:
+      fillStyles: bg-gray opacity-100
+      grid: grid-cols-2 justify-start gap-6
+      alignment: flex-col-reverse items-start  text-left
+      image: '  object-center object-fill'
+      imagePadding: pt-0 pb-0 pr-0 pl-0
+      contentPadding: pt-2 pb-2 pr-2 pl-2
+      borderStyles: border-white border-0
+      labelStyles: text-white undefined undefined
+      headlineStyles: text-white undefined undefined
+      subheadStyles: text-white undefined undefined
+      textStyles: text-white undefined undefined
+      buttonType: icon
+      buttonLayout: undefined
+      buttonWidth: undefined
+    background:
+      style: bg-cover
+      position: bg-center
+    label: ''
+    headline: Headline
+    subhead: Subhead
+    items:
+      - headline: Headline
+        subhead: Subhead
+      - headline: Headline
+        subhead: Subhead
+      - headline: Headline
+        subhead: Subhead
+    _template: cards
   - style:
       alignment: 'flex-row-reverse items-center gap-12 sm:flex-col sm:items-center sm:'
       padding: 'pt-32 pb-32 pr-14 pl-14 sm:pt-0 sm:pb-10 sm:pr-5 sm:pl-5'
@@ -471,6 +509,7 @@ background:
   style: bg-cover
   position: bg-left
 ---
+
 
 
 
