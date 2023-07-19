@@ -290,7 +290,7 @@ blocks:
     navigationLabel: components
     _template: cards
   - style:
-      alignment: 'flex-row items-center '
+      alignment: 'flex-col-reverse items-center '
       padding: pt-20 pb-20 pr-10 pl-10
       featureImage: '  mx-auto'
       featureContent: w-1/2 min-h-0 text-left
@@ -302,6 +302,8 @@ blocks:
     background:
       style: bg-cover
       position: bg-center
+    image:
+      src: /uploads/IMG_0968 2.PNG
     headline: Headline
     subhead: Subhead
     _template: feature
@@ -317,6 +319,7 @@ blocks:
       textStyles: text-white mg-copy undefined
     background:
       fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
       style: bg-cover
       position: bg-center
       ornaments:
@@ -466,6 +469,7 @@ background:
   style: bg-cover
   position: bg-left
 ---
+
 
 
 
