@@ -233,16 +233,16 @@ blocks:
     items:
       - headline: Sponsor
         body: |
-          ![](</uploads/IMG_0965 2.PNG>)
+          ![](/uploads/MNBlockchain.png)
       - headline: Sponsor
         body: |
-          ![](</uploads/IMG_0965 2.PNG>)
+          ![](/uploads/MNBlockchain.png)![]()
       - headline: Sponsor
         body: |
-          ![](</uploads/IMG_0965 2.PNG>)
+          ![](/uploads/MNBlockchain.png)![]()
       - headline: Sponsor
         body: |
-          ![](</uploads/IMG_0965 2.PNG>)
+          ![](/uploads/MNBlockchain.png)
       - image:
           src: ''
         headline: Feature
@@ -252,8 +252,7 @@ blocks:
 
 
           Copy next to an image, or above an image. Or below it - you get the
-          point. The core component of all websites.![](</uploads/IMG_0965
-          2.PNG>)
+          point. The core component of all websites.![]()
         link: digi-frontier.com
       - image:
           src: /uploads/bring-forward.svg
@@ -308,6 +307,7 @@ blocks:
       src: /uploads/logo.jpg
     headline: Headline Test
     subhead: Subhead
+    body: ''
     _template: feature
   - style:
       alignment: flex-col-reverse items-center gap-6
@@ -339,13 +339,17 @@ blocks:
     label: ''
     headline: Headline
     subhead: Subhead
+    body: ''
     items:
       - headline: Headline
         subhead: Subhead
+        body: ''
       - headline: Headline
         subhead: Subhead
+        body: ''
       - headline: Headline
         subhead: Subhead
+        body: ''
     _template: cards
   - style:
       alignment: 'flex-row-reverse items-center gap-12 sm:flex-col sm:items-center sm:'
@@ -509,6 +513,7 @@ background:
   style: bg-cover
   position: bg-left
 ---
+
 
 
 
