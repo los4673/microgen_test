@@ -227,11 +227,16 @@ blocks:
         - src: /uploads/rule.svg
           alignment: bottom
     label: ''
-    headline: Components (Sponsors Section?
+    headline: Components (Sponsors Section?)
     subhead: ''
     body: ''
     items:
-      - {}
+      - headline: Sponsor
+        body: |
+          ![](</uploads/IMG_0965 2.PNG>)
+      - headline: Sponsor
+        body: |
+          ![](</uploads/IMG_0965 2.PNG>)
       - headline: Sponsor
         body: |
           ![](</uploads/IMG_0965 2.PNG>)
@@ -445,6 +450,7 @@ background:
   style: bg-cover
   position: bg-left
 ---
+
 
 
 
